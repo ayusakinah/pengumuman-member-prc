@@ -18,7 +18,7 @@ while (input) {
     result = "Congratulation you're a member of Scientific Research PRC 2022, " + p + ' !';
   } else if (p == lolos.dataScience[0] || p == lolos.dataScience[1] || p == lolos.dataScience[2] || p == lolos.dataScience[3] || p == lolos.dataScience[4] || p == lolos.dataScience[5]) {
     result = "Congratulation you're a member of Data Science PRC 2022, " + p + ' !';
-  } else if (p == lolos.webDev[0] || p == lolos.webDev[1]) {
+  } else if (p == lolos.webDev[0] || p == lolos.webDev[1] || p == lolos.webDev[2]) {
     result = "Congratulation you're a member of Web Development PRC 2022, " + p + ' !';
   } else if (p === null) {
     result = 'Please input your name correctly';
